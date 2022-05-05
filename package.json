@@ -1,0 +1,22 @@
+{
+  "name": "treedom",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "index.js",
+  "scripts": {
+    "test": "yarn run cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zambolip/treedom.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zambolip/treedom/issues"
+  },
+  "homepage": "https://github.com/zambolip/treedom#readme",
+  "dependencies": {
+    "cypress": "^9.6.0"
+  }
+}
