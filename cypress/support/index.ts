@@ -18,3 +18,6 @@ import './commands'
 
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
+import { getByDataQa } from './commands';
+
+Cypress.Commands.add('getByDataQa', getByDataQa);

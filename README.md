@@ -8,7 +8,7 @@
 
 * Clone project wherever you want
 ```bash 
- $ git clone https://github.com/zambolip/treedom.git
+ $ git clone https://github.com/zambolip/cypress.git
 ```
 
 * Install all dependencies

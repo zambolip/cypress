@@ -5,7 +5,7 @@ export class Checkout {
     }
 
     static assertAddressDetailsAreVisible() {
-        cy.get('[data-qa="checkout-info"]').should('be.visible')
+        cy.getByDataQa('checkout-info').should('be.visible')
     }
 
     static addComment() {

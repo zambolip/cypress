@@ -1,5 +1,3 @@
-import { Home } from "./pages/Home";
-import { Products } from "./pages/Products";
 
 
 describe('uitestingplayground.com', () => {
