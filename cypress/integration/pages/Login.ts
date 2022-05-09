@@ -10,7 +10,7 @@ export class Login {
         cy.get('[data-qa="signup-email"]').type(mail)
     }
 
-    static setNewName(name) {
+    static setNewName(name: string) {
         cy.get('[data-qa="signup-name"]').type(name)
     }
 

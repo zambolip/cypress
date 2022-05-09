@@ -4,8 +4,8 @@ export class Signup {
         cy.url().should('eq', 'https://automationexercise.com/signup')
     }
 
-    static setField(field, value) {
-        let fields = {
+    static setField(field: string, value: string) {
+        let fields: any = {
             firstName: '[data-qa="first_name"]',
             newPassword: '[data-qa="password"]',
             lastName: '[data-qa="last_name"]',
@@ -29,7 +29,7 @@ export class Signup {
 
     static continueAfterSignup() {
         cy.get('[data-qa="continue-button"]').should('be.visible')
-        cy.get('[data-qa="continue-button"]').click('')
+        cy.get('[data-qa="continue-button"]').click()
     }
 }
 

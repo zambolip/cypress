@@ -44,7 +44,7 @@ describe('Test Case 14 - Place Order: Register while Checkout', () => {
         Cart.goToLoginRegistration()
         Login.assertIsLoginPage()
         Login.setNewName('ciccio')
-        Login.setNewRandomEmail('')
+        Login.setNewRandomEmail()
         Login.signup()
         Signup.assertIsSignupPage()
         Signup.setField('newPassword', 'password')
